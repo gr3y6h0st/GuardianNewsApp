@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_search_query_default"
+        android:inputType="textCapSentences"
+        android:key="@string/settings_search_query_key"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_search_query_String" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_by_list_default"
+        android:entries="@array/settings_order_by_Strings"
+        android:entryValues="@array/settings_order_by_APIs"
+        android:key="@string/settings_order_by_list_key"
+        android:title="@string/settings_order_by_list_String" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_order_date_list_default"
+        android:entries="@array/settings_order_date_Strings"
+        android:entryValues="@array/settings_order_date_APIs"
+        android:key="@string/settings_order_date_list_key"
+        android:title="@string/settings_order_date_list_String" />
+
+</PreferenceScreen>

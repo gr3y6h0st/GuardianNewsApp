@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_order_by_Strings">
+        <item>@string/settings_order_by_newest_String</item>
+        <item>@string/settings_order_by_oldest_String</item>
+        <item>@string/settings_order_by_relevance_String</item>
+    </string-array>
+
+    <string-array name="settings_order_by_APIs">
+        <item>@string/settings_order_by_newest_API</item>
+        <item>@string/settings_order_by_oldest_API</item>
+        <item>@string/settings_order_by_relevance_API</item>
+    </string-array>
+
+    <string-array name="settings_order_date_APIs">
+        <item>@string/settings_order_date_published_API</item>
+        <item>@string/settings_order_date_edition_API</item>
+        <item>@string/settings_order_date_last_modified_API</item>
+
+    </string-array>
+
+    <string-array name="settings_order_date_Strings">
+        <item>@string/settings_order_date_published_String</item>
+        <item>@string/settings_order_date_edition_String</item>
+        <item>@string/settings_order_date_last_modified_String</item>
+    </string-array>
+
+</resources>

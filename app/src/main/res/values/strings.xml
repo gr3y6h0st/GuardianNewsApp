@@ -1,0 +1,69 @@
+<resources>
+    <!-- App Title & Main screen label -->
+    <string name="app_name">News Stand: Guardian-based API</string>
+    <string name="main_title">Article Feed</string>
+
+    <!-- Placeholders for list_item.xml -->
+    <string name="title_String">Sample Text: News Articles.</string>
+    <string name="section_String">"Section" category here.</string>
+    <string name="date_String">03/23/2129 11:11</string>
+
+    <!-- Placeholders for activity_main.xml -->
+    <string name="message_placeholder">Placeholder Text.</string>
+    <string name="refresh_placeholder">Refreshing</string>
+
+
+    <!-- Error for user -->
+    <string name="error_no_internet">Internet connection required.</string>
+    <string name="error_no_articles">0 articles found.</string>
+    <string name="error_fetching">Standby...populating list.</string>
+
+    <!-- Menu Items -->
+    <string name="menu_refresh">Refresh</string>
+    <string name="settings_menu_item">Settings</string>
+
+    <!-- Settings Activity Title -->
+    <string name="settings_title">Search Filters</string>
+
+    <!-- Search Query for EditTextPreferences -->
+    <string name="settings_search_query_String">Enter Search Term: </string>
+    <string name="settings_search_query_key" translatable="false">q</string>
+    <string name="settings_search_query_default" translatable="false">San Francisco</string>
+
+    <!-- Search Query for ListPreferences  add date publish/edition/last modified sort-->
+    <string name="settings_order_date_list_String">Order-Date: </string>
+    <string name="settings_order_date_list_key">order-date</string>
+    <!-- default String value for settings order list is set to "NEWEST" date. -->
+    <string name="settings_order_date_list_default">@string/settings_order_date_published_String</string>
+
+    <!-- String and API value for Order-date Last Modified option -->
+    <string name="settings_order_date_last_modified_String">Last Modified</string>
+    <string name="settings_order_date_last_modified_API" translatable="false">last-modified</string>
+
+    <!-- String and API value for Order-date Last Published option -->
+    <string name="settings_order_date_published_String">Last Published</string>
+    <string name="settings_order_date_published_API" translatable="false">published</string>
+
+    <!-- String and API value for Order-by Article Edition option -->
+    <string name="settings_order_date_edition_String">Newspaper Edition</string>
+    <string name="settings_order_date_edition_API" translatable="false">newspaper-edition</string>
+
+    <!-- Search Query for ListPreferences  add date sort-->
+    <string name="settings_order_by_list_String">Order by:</string>
+    <string name="settings_order_by_list_key">order-by</string>
+    <!-- default String value for settings order list is set to "NEWEST" date. -->
+    <string name="settings_order_by_list_default">@string/settings_order_by_newest_String</string>
+
+    <!-- String and API value for Order-by relevance option -->
+    <string name="settings_order_by_relevance_String">Relevance</string>
+    <string name="settings_order_by_relevance_API" translatable="false">relevance</string>
+
+    <!-- String and API value for Order-by newest option -->
+    <string name="settings_order_by_newest_String">Newest</string>
+    <string name="settings_order_by_newest_API" translatable="false">newest</string>
+
+    <!-- String and API value for Order-by oldest option -->
+    <string name="settings_order_by_oldest_String">Oldest</string>
+    <string name="settings_order_by_oldest_API" translatable="false">oldest</string>
+
+</resources>
